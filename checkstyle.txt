@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] /Users/andreiciineanu/Desktop/proiect-etapa2-energy-system/./src/distributors/OutDistributors.java:14:18: Variable 'isBankrupt' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] /Users/andreiciineanu/Desktop/proiect-etapa2-energy-system/./src/simulation/Simulation.java:53:3: Method length is 744 lines (max allowed is 150). [MethodLength]
+[ERROR] /Users/andreiciineanu/Desktop/proiect-etapa2-energy-system/./src/simulation/MyDistributors.java:5:17: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
+[ERROR] /Users/andreiciineanu/Desktop/proiect-etapa2-energy-system/./src/simulation/MyDistributors.java:26:71: '1000' is a magic number. [MagicNumber]
+[ERROR] /Users/andreiciineanu/Desktop/proiect-etapa2-energy-system/./src/simulation/MyProducers.java:18:76: '1000' is a magic number. [MagicNumber]
+[ERROR] /Users/andreiciineanu/Desktop/proiect-etapa2-energy-system/./src/consumers/OutConsumers.java:6:18: Variable 'isBankrupt' must be private and have accessor methods. [VisibilityModifier]
+Audit done.
+Checkstyle ends with 6 errors.

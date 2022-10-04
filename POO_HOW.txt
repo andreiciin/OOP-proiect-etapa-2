@@ -1,0 +1,50 @@
+ Pentru a afisa folderul ascuns .git in proiect-etapa2 
+cmd + shift + .
+
+
+
+
+
+
+
+//////// main
+/*ArrayList<OutConsumers> outConsumers = new ArrayList<>();
+        ArrayList<OutDistributors> outDistributors = new ArrayList<>();
+        ArrayList<OutProducers> outProducers = new ArrayList<>();
+
+        for (int i = 0; i < input.getConsumers().size(); i++) {
+            OutConsumers out =
+                    new OutConsumers(
+                            input.getConsumers().get(i).getId(),
+                            true,
+                            input.getConsumers().get(i).getInitialBudget());
+            outConsumers.add(out);
+        }
+
+        for (int i = 0; i < input.getDistributors().size(); i++) {
+            OutDistributors out =
+                    new OutDistributors(
+                            input.getDistributors().get(i).getId(),
+                            input.getDistributors().get(i).getEnergyNeededKW(),
+                            input.getDistributors().get(i).getContractLength(),
+                            input.getDistributors().get(i).getInitialBudget(),
+                            input.getDistributors().get(i).getProducerStrategy(),
+                            false,
+                            null);
+            outDistributors.add(out);
+        }
+
+        for (int i = 0; i < input.getProducers().size(); i++) {
+            OutProducers out =
+                    new OutProducers(
+                            input.getProducers().get(i).getId(),
+                            input.getProducers().get(i).getMaxDistributors(),
+                            input.getProducers().get(i).getPriceKW(),
+                            input.getProducers().get(i).getEnergyType(),
+                            input.getProducers().get(i).getEnergyPerDistributor(),
+                            null);
+            outProducers.add(out);
+        }
+
+        OutGenerator out = new OutGenerator(args[1], outConsumers, outDistributors, outProducers);
+*/
